@@ -44,9 +44,15 @@
             </nav>
             <div class="divider"></div>
             <h2 class="text-center">
-                <span class="fa fa-envelope-square color-on-hover"></span>
-                <span class="fa fa-facebook-square color-on-hover"></span>
-                <span class="fa fa-instagram color-on-hover"></span>
+                <a class="deco-none" href="mailto:{{ site.email }}">
+                    <span class="fa fa-envelope-square color-on-hover"></span>
+                </a>
+                <a class="deco-none" href="{{ site.facebook }}">
+                    <span class="fa fa-facebook-square color-on-hover"></span>
+                </a>
+                <a class="deco-none" href="{{ site.instagram }}">
+                    <span class="fa fa-instagram color-on-hover"></span>
+                </a>
             </h2>
         </div>
         <div class="text-style col-sm-7">
