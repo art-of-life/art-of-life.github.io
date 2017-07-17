@@ -1,5 +1,6 @@
 ---
 layout: main
+permalink: /kontakt/
 ---
 
 # Kontakt

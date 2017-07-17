@@ -1,0 +1,24 @@
+---
+layout: main
+permalink: /oferta/
+---
+<div class="container-fluid">
+    {% for o in site.oferta %}
+    <div class="col-md-4">
+        <div class="divider"></div>
+        <div class="item-wrapper">
+            <div class="bg-grow-on-hover" style="background-image: url('{{ o.image }}');">
+            </div>
+            <div class="opaque-on-hover">
+                <p>
+                    {{ o.description }}
+                </p>
+            </div>
+        </div>
+        <a href="{{ o.url }}">
+            {{ o.name }}
+        </a>
+    </div>
+    {% endfor %}
+</div>
+<div class="divider"></div>

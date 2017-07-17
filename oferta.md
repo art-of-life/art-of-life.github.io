@@ -1,7 +1,0 @@
----
-layout: main
----
-
-# Oferta
-
-Oferta.
