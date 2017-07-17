@@ -15,3 +15,6 @@ collections:
     oferta:
         output: true
         permalink: /:collection/:title
+    coaching:
+        output: true
+        permalink: /oferta/:collection/:title

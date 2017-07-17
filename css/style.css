@@ -11,23 +11,27 @@
     position: relative;
 }
 
-.opaque-on-hover {
-    background: rgba(117, 139, 173, 0.7);
+.item-wrapper .item-opaque-on-hover {
+    color: white;
+    background: rgba(117, 139, 173, 0.9);
     position: relative;
-    height: 10em;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    height: 14em;
     transition: opacity 0.5s ease;
     opacity: 0.0;
     filter: alpha(opacity=0); /* For IE8 and earlier */
     z-index: 1;
 }
 
-.item-wrapper:hover > .opaque-on-hover {
+.item-wrapper:hover .item-opaque-on-hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     z-index: 1;
 }
 
-.bg-grow-on-hover {
+.item-wrapper .item-bg-grow-on-hover {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -37,9 +41,21 @@
     z-index: 0;
 }
 
-.item-wrapper:hover > .bg-grow-on-hover {
+.item-wrapper:hover .item-bg-grow-on-hover {
     transform: scale(1.15);
     z-index: 0;
+}
+
+.item-wrapper .item-bottom {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0.5em;
+    width: 100%;
+}
+
+.item-text-indent {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
 }
 
 .divider {
