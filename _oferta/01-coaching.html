@@ -16,19 +16,22 @@ permalink: /oferta/coaching/
         <div class="item-wrapper">
             <div class="item-bg-grow-on-hover" style="background-image: url('{{ o.image }}');">
             </div>
+            <div class="item-opaque-on-hover">
+                <ul class="list-unstyled item-list">
+                    {% for d in o.description %}
+                        <li>{{ d }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="item-bottom">
+                    <hr>
+                    <p class="text-center text-uppercase">
+                        Przeglądaj
+                    </p>
+                </div>
+            </div>
             <a class="item-link deco-none" href="{{ o.url }}">
-                <div class="item-opaque-on-hover">
-                    <ul>
-                        {% for d in o.description %}
-                            <li>{{ d }}</li>
-                        {% endfor %}
-                    </ul>
-                    <div class="item-bottom">
-                        <hr>
-                        <p class="text-center text-uppercase">
-                            Przeglądaj
-                        </p>
-                    </div>
+                <div>
+                    &nbsp;
                 </div>
             </a>
         </div>
