@@ -11,6 +11,9 @@ github_username: art-of-life
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-redirect-from
+
 collections:
     oferta:
         output: true

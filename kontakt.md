@@ -5,4 +5,4 @@ permalink: /kontakt/
 
 # Kontakt
 
-Kontakt.
+Strona w trakcie budowy.
