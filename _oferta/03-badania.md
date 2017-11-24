@@ -1,6 +1,8 @@
 ---
 name: Badania na zlecenie
 description:
+    - Badania społeczne
+    - Ewaluacja programów i projektów
     - Badania do prac dyplomowych
 image: /img/t3.jpg
 layout: main
