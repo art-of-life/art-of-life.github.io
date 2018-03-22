@@ -5,4 +5,6 @@ permalink: /o-nas/
 
 # O nas
 
-O nas.
+---
+
+Strona w trakcie budowy.

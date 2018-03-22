@@ -5,4 +5,6 @@ permalink: /rekomendacje/
 
 # Rekomendacje
 
-Rekomendacje.
+---
+
+Strona w trakcie budowy.

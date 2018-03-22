@@ -5,4 +5,8 @@ permalink: /kontakt/
 
 # Kontakt
 
-Strona w trakcie budowy.
+---
+
+✉ <coaching.artoflife@gmail.com>
+
+✆ _606 919 169_

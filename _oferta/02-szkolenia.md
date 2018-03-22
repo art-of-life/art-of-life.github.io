@@ -11,4 +11,6 @@ slug: szkolenia
 
 # Szkolenia
 
+---
+
 Strona w trakcie budowy.
